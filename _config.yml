@@ -179,7 +179,7 @@ collections:
   pages:
     output: true
     permalink: /:path
-  properties:
+  crosswalks:
     output: true
     permalink: /:path
 
