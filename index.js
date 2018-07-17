@@ -2,6 +2,9 @@ import $ from 'jquery';
 import "materialize-css";
 import listjs from "list.js"
 
+const CROSSWALK_PAGE = '#crosswalk-page';
+const PROPERTIES_PAGE = '#properties-page';
+
 $(function () {
 
     $('.button-collapse').sideNav();
@@ -18,11 +21,11 @@ $(function () {
         $('#cookies').hide()
     }
 
-    if (document.getElementById("dataset-page")) {
+    if ( $(CROSSWALK_PAGE).length ) {
         datasetPageFiltering();
     }
 
-    if (document.getElementById("properties-page")) {
+    if ( $(PROPERTIES_PAGE).length ) {
         propertiesPageFiltering();
     }
 }); // end of document ready
@@ -76,7 +79,7 @@ function propertiesPageFiltering() {
 
 function datasetPageFiltering() {
 
-    var filterCheckboxes = $('#standards-search input[type="checkbox"]');
+    var filterCheckboxes = $('#resources-search input[type="checkbox"]');
     filterCheckboxes.on('change', function () {
 
         var selectedFilters = [];
@@ -85,20 +88,20 @@ function datasetPageFiltering() {
             selectedFilters.push(this.value);
         });
         if (selectedFilters.length <= 0) {
-            $('#dataset-page .standard').removeClass("hidden").addClass("visible");
+            $( CROSSWALK_PAGE + ' .resource').removeClass("hidden").addClass("visible");
             return
         }
         // create a collection containing all of the filterable elements
-        var filteredResults = $('#dataset-page .standard');
-        var notCheckedStandards = $('#dataset-page .standard');
+        var filteredResults = $( CROSSWALK_PAGE + ' .resource');
+        var notCheckedStandards = $( CROSSWALK_PAGE + ' .resource');
 
-        filteredResults = filteredResults.filter((pos, standard) =>
-            selectedFilters.includes(standard.getAttribute('data-id')));
+        filteredResults = filteredResults.filter((pos, resource) =>
+            selectedFilters.includes(resource.getAttribute('data-id')));
 
-        notCheckedStandards = notCheckedStandards.filter((pos, standard) => $.inArray(standard, filteredResults) === -1);
+        notCheckedStandards = notCheckedStandards.filter((pos, resource) => $.inArray(resource, filteredResults) === -1);
 
         notCheckedStandards.removeClass("visible").addClass("hidden");
-        $('#dataset-page .standard').filter(filteredResults).removeClass("hidden").addClass("visible");
+        $( CROSSWALK_PAGE + ' .resource').filter(filteredResults).removeClass("hidden").addClass("visible");
 
     });
 };

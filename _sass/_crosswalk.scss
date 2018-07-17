@@ -1,4 +1,4 @@
-#dataset-page {
+#crosswalk-page {
     .mapping {
         padding: 0 0.5em;
         border-color: palette(light, tertiary);
@@ -34,13 +34,13 @@
                 }
             }
         }
-        .standards {
+        .resources {
             height: 80%;
             display: flex;
             padding: 1em 0;
             overflow-x: auto;
                   
-            .standard {
+            .resource {
                 display: flex;
                 flex-direction: column;
                 width: 100%;
@@ -49,7 +49,7 @@
                     overflow: hidden;
                     font-size: 0.8em;
                     padding: 0.5em;
-                    .standard-property {
+                    .resource-property {
                         margin: 0 0 0.3em 0;
                         display: flex;
                         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -57,7 +57,7 @@
                             white-space: nowrap;
                             padding: 0 0.5em 0 0.5em;
                             display: inline-flex;
-                            color: $palette-background;
+                            color: palette(light, bg);
                             width: 100%;
                             .label {
                                 display: flex;
@@ -68,14 +68,14 @@
                         }
                         .namespace {
                             border-radius: 4px 0 0 4px;
-                            background-color: $palette-primary;
+                            background-color: palette(light, primary);
                         }
                         .property-name {
-                            background-color: $palette-secondary;
+                            background-color: palette(light, secondary);
                         }
                         .subproperty-name {
                             border-radius: 0 4px 4px 0;
-                            background-color: $palette-tertiary;
+                            background-color: palette(light, tertiary);
                         }
                     }
                 }
@@ -99,7 +99,7 @@
         }
 
     }
-    #standards-search {
+    #resources-search {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         display: inline-flex;
         margin: 1em 0 1em 1em;
@@ -107,6 +107,10 @@
         .search-checkbox {
             display: flex;
             margin: 0 2em 0 0;
+
+            label {
+                color: palette(light, secondary);
+            }
         }
     }
     .property-card {
@@ -122,11 +126,18 @@
     .column-title {
         height: 4em;
         display: flex;
+        flex-direction: column;        
         justify-content: center;
         align-items: center;
         h4 {
             margin: initial;
-        }        
+        }
+        a {
+            color: palette(light, primary);
+        }
+        .type {
+            color: palette(light, secondary);
+        }
     }
     .properties {
         display: flex;
@@ -137,7 +148,7 @@
         width: 8.33333%;
     }
 
-    .standard {
+    .resource {
         -webkit-transition: all 0.2s ease-in-out,visibility 0.6s ease-in-out,opacity 0.6s ease-in-out;
         -moz-transition: all 0.2s ease-in-out,visibility 0.6s ease-in-out,opacity 0.6s ease-in-out;
         -o-transition: all 0.2s ease-in-out,visibility 0.6s ease-in-out,opacity 0.6s ease-in-out;

@@ -2,11 +2,11 @@
 layout: mapping                                                     
 ---
 
-<div id="dataset-page">
+<div id="crosswalk-page">
     <h1>Dataset metadata properties mapping</h1>    
 
     {% assign properties-page = site.pages | where: 'title', 'Properties' | first %}
-    <div id="standards-search">
+    <div id="resources-search">
         {% for crosswalk in site.crosswalks %}
         <div class="search-checkbox">
             <input type="checkbox" name="standard-name" value="{{crosswalk.resource.name}}" id="{{crosswalk.resource.name}}" />
@@ -27,12 +27,13 @@ layout: mapping
                 {% endfor %}
             </div>
         </div>
-        <div class="standards" id="standards-list">
+        <div class="resources" id="standards-list">
             {% for crosswalk in site.crosswalks %}
             
-            <div class="standard" data-id="{{crosswalk.resource.name}}">
+            <div class="resource" data-id="{{crosswalk.resource.name}}">
                 <div class="column-title">
-                    <h4>{{crosswalk.resource.name}}</h4>
+                    <h4><a href="{{crosswalk.resource.url}}" target="_blank">{{crosswalk.resource.name}} {{crosswalk.resource.version}}</a></h4>
+                    <span class="type">{{crosswalk.resource.type}}</span>
                 </div>
                 <div class="properties">
                     {% for property in properties %}                        
@@ -40,7 +41,7 @@ layout: mapping
                     <div class="property-card">
                         <div class="property-detail">
                             {% for property in standard-property-set %}
-                            <div class="standard-property">
+                            <div class="resource-property">
                                 {% if property.namespace != '' %}
                                 <div class="box namespace">
                                     <i class="mdi mdi-package-variant mdi-18px"></i>
