@@ -34,6 +34,10 @@ layout: mapping
                 <div class="column-title">
                     <h4><a href="{{crosswalk.resource.url}}" target="_blank">{{crosswalk.resource.name}} {{crosswalk.resource.version}}</a></h4>
                     <span class="type">{{crosswalk.resource.type}}</span>
+                    <div class="edit-button">
+                        <span class="tooltiptext">Edit on <i class="mdi mdi-github-circle mdi-18px"></i></span>
+                        <a href="https://github.com/EOSC-EDMI/eosc-edmi.github.io/tree/master/{{crosswalk.folder}}{{crosswalk.path}}" target="_blank"><i class="mdi mdi-lead-pencil mdi-18px"></i></a>
+                    </div>                    
                 </div>
                 <div class="properties">
                     {% for property in properties %}                        

@@ -1,5 +1,6 @@
 #crosswalk-page {
     .mapping {
+        position: relative;
         padding: 0 0.5em;
         border-color: palette(light, tertiary);
         border-style: solid;
@@ -41,6 +42,7 @@
             overflow-x: auto;
                   
             .resource {
+                position: relative;
                 display: flex;
                 flex-direction: column;
                 width: 100%;
@@ -78,7 +80,7 @@
                             background-color: palette(light, tertiary);
                         }
                     }
-                }
+                }                
             }
 
             .visible {
@@ -95,7 +97,6 @@
                     width: 0;
                 }
             }
-                        
         }
 
     }
@@ -138,6 +139,56 @@
         .type {
             color: palette(light, secondary);
         }
+
+        .edit-button {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 0px 4px;
+            border-radius: 7px;
+            overflow: initial;
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            a {
+                color: palette(light, secondary);
+            }
+            .tooltiptext {
+                visibility: hidden;
+                background-color: black;
+                color: #fff;
+                opacity: 0.8;
+                text-align: center;
+                padding: 5px 0;
+                border-radius: 6px;
+                width: 120px;
+                top: 150%;
+                left: 50%;
+                margin-left: -60px;
+                /* Use half of the width (120/2 = 60), to center the tooltip */
+                position: absolute;
+                z-index: 50;
+            }
+            &:hover .tooltiptext {
+                visibility: visible;
+            }
+            .tooltiptext::after {
+                content: " ";
+                position: absolute;
+                bottom: 100%;
+                /* At the bottom of the tooltip */
+                left: 50%;
+                margin-left: -5px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: transparent transparent black transparent;;
+            }
+            
+            &:hover {
+                background-color: palette(light, tertiary);
+                a {
+                    color: palette(light, bg);
+                }
+            }
+        }        
     }
     .properties {
         display: flex;
