@@ -70,8 +70,8 @@
             url: ''    
     dataStandard:
         - 
-            namespace: 'ukrdds'    
-            property-name: 'subject_scheme'
+            namespace: ''    
+            property-name: ''
             subproperty-name: ''
             url: ''  
     dateModified:
