@@ -23,7 +23,7 @@
             namespace: 'ukrdds'    
             property-name: 'related_identifier'
             subproperty-name: ''
-            url: 'http://www.foo.com/bar'
+            url: ''
         - 
             namespace: 'ukrdds'    
             property-name: 'relatedIdentifierType'
@@ -87,19 +87,19 @@
             url: ''  
     accessUrl:
         - 
-            namespace: ''    
-            property-name: ''
+            namespace: 'ukrdds'    
+            property-name: 'unique_resource_identifier'
             subproperty-name: ''
             url: ''   
     accessInterface:
         - 
-            namespace: 'dcat'    
-            property-name: 'modified'
-            subproperty-name: 'date'
-            url: 'http://www.foo.com/bar'
+            namespace: ''    
+            property-name: ''
+            subproperty-name: ''
+            url: ''
         - 
-            namespace: 'dcat'    
-            property-name: 'modified'
-            subproperty-name: 'date'
-            url: 'http://www.foo.com/bar'    
+            namespace: ''    
+            property-name: ''
+            subproperty-name: ''
+            url: ''    
 ---
