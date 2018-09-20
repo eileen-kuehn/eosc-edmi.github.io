@@ -21,6 +21,11 @@
     identifier:
         - 
             namespace: 'ukrdds'    
+            property-name: 'unique_resource_identifier'
+            subproperty-name: ''
+            url: ''
+        - 
+            namespace: 'ukrdds'    
             property-name: 'related_identifier'
             subproperty-name: ''
             url: ''
@@ -87,8 +92,8 @@
             url: ''  
     accessUrl:
         - 
-            namespace: 'ukrdds'    
-            property-name: 'unique_resource_identifier'
+            namespace: ''    
+            property-name: ''
             subproperty-name: ''
             url: ''   
     accessInterface:
