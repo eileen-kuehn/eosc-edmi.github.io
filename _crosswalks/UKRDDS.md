@@ -40,11 +40,6 @@
             property-name: 'unique_resource_identifier'
             subproperty-name: ''
             url: ''   
-        - 
-            namespace: 'ukrdds'    
-            property-name: 'subject_scheme_identifier'
-            subproperty-name: ''
-            url: ''   
     creator:
         - 
             namespace: 'ukrdds'    
