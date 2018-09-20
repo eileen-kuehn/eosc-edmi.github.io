@@ -68,7 +68,7 @@
             property-name: 'licence_uri'
             subproperty-name: ''
             url: ''    
-    dataStandard:
+    dataStandard: # N/A
         - 
             namespace: ''    
             property-name: ''
@@ -85,21 +85,16 @@
             property-name: 'date_type'
             subproperty-name: ''
             url: ''  
-    accessUrl:
-        - 
+    accessUrl: # N/A
+        -
             namespace: ''    
             property-name: ''
             subproperty-name: ''
             url: ''   
-    accessInterface:
+    accessInterface: # N/A
         - 
             namespace: ''    
             property-name: ''
             subproperty-name: ''
-            url: ''
-        - 
-            namespace: ''    
-            property-name: ''
-            subproperty-name: ''
-            url: ''    
+            url: ''  
 ---
