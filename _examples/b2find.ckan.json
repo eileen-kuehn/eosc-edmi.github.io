@@ -1,0 +1,203 @@
+{
+    "help": "http://b2find.dkrz.de/api/3/action/help_show?name=package_search",
+    "success": true,
+    "result": {
+        "count": 1,
+        "sort": "score desc, metadata_modified desc",
+        "facets": {},
+        "results": [
+            {
+                "license_title": null,
+                "maintainer": null,
+                "relationships_as_object": [],
+                "private": false,
+                "maintainer_email": null,
+                "num_tags": 12,
+                "id": "a6c37ef6-07b3-4697-b36c-78c7cbc8c301",
+                "metadata_created": "2018-10-09T13:37:11.510931",
+                "metadata_modified": "2018-11-20T11:45:44.008179",
+                "author": null,
+                "author_email": null,
+                "state": "active",
+                "version": "b4638f60226174ff0290a3f6c5a2d47f",
+                "creator_user_id": "2a9e9ddd-37da-4ada-b9c5-71629ff72283",
+                "type": "dataset",
+                "resources": [],
+                "num_resources": 0,
+                "tags": [
+                    {
+                        "vocabulary_id": null,
+                        "state": "active",
+                        "display_name": "Environmental monitoring facilities",
+                        "id": "4ef22f9b-a9cb-4c9a-8d08-8bdda7f57ece",
+                        "name": "Environmental monitoring facilities"
+                    },
+                    {
+                        "vocabulary_id": null,
+                        "state": "active",
+                        "display_name": "Terrestrial",
+                        "id": "53261764-d0aa-49f5-a317-44167a951609",
+                        "name": "Terrestrial"
+                    },
+                    {
+                        "vocabulary_id": null,
+                        "state": "active",
+                        "display_name": "atmospheric parameter",
+                        "id": "74d9d23e-0560-4245-b511-0e8b7713cfef",
+                        "name": "atmospheric parameter"
+                    },
+                    {
+                        "vocabulary_id": null,
+                        "state": "active",
+                        "display_name": "diversity index",
+                        "id": "406caae9-ab70-4583-b6dc-2195777e20ec",
+                        "name": "diversity index"
+                    },
+                    {
+                        "vocabulary_id": null,
+                        "state": "active",
+                        "display_name": "ecosystem parameter",
+                        "id": "8bff8a33-52d7-47ba-bc49-125fe45ba803",
+                        "name": "ecosystem parameter"
+                    },
+                    {
+                        "vocabulary_id": null,
+                        "state": "active",
+                        "display_name": "ecosystem structure",
+                        "id": "04f57d9a-b352-46fb-b0a1-8739e6f7f4d2",
+                        "name": "ecosystem structure"
+                    },
+                    {
+                        "vocabulary_id": null,
+                        "state": "active",
+                        "display_name": "emfiso_pointer_record",
+                        "id": "77ba932e-9c42-4f27-898e-fbd0f025cd1b",
+                        "name": "emfiso_pointer_record"
+                    },
+                    {
+                        "vocabulary_id": null,
+                        "state": "active",
+                        "display_name": "floristic diversity",
+                        "id": "8523ca89-4792-459b-bbab-15a716bd2484",
+                        "name": "floristic diversity"
+                    },
+                    {
+                        "vocabulary_id": null,
+                        "state": "active",
+                        "display_name": "habitat structure",
+                        "id": "63e5c039-5393-459d-8697-163a68adbb2f",
+                        "name": "habitat structure"
+                    },
+                    {
+                        "vocabulary_id": null,
+                        "state": "active",
+                        "display_name": "precipitation intensity",
+                        "id": "c7c015cc-ffa0-4ed7-a49f-13ac9c04131d",
+                        "name": "precipitation intensity"
+                    },
+                    {
+                        "vocabulary_id": null,
+                        "state": "active",
+                        "display_name": "site",
+                        "id": "74e84487-23ff-48dc-ab69-84e6f0b947c4",
+                        "name": "site"
+                    },
+                    {
+                        "vocabulary_id": null,
+                        "state": "active",
+                        "display_name": "soil parameter",
+                        "id": "4f3456d4-6eb8-47d6-abc1-5905d5ed47fc",
+                        "name": "soil parameter"
+                    }
+                ],
+                "groups": [
+                    {
+                        "display_name": "DEIMS",
+                        "description": "The Dynamic Ecological Information Management System - Site and dataset registry [DEIMS-SDR](https://data.lter-europe.net/deims/ \"DEIMS\") is the unique place where you can find information about sites and datasets of networks dealing with ecological long term observation and experimentation in Europe and globally. It is the central platform to register, discover and edit related information. You can even use the stored information for your own research.",
+                        "image_display_url": "http://b2find.dkrz.de/images/communities/deims_logo.png",
+                        "title": "DEIMS",
+                        "id": "2a6361f4-386e-42fc-a42e-e6ddcf943922",
+                        "name": "deims"
+                    }
+                ],
+                "license_id": null,
+                "relationships_as_subject": [],
+                "organization": {
+                    "description": "B2FIND is a discovery service based on metadata steadily harvested from research data collections from EUDAT data centres and other repositories.",
+                    "created": "2018-02-22T13:10:44.859079",
+                    "title": "EUDAT-B2FIND",
+                    "name": "eudat-b2find",
+                    "is_organization": true,
+                    "state": "active",
+                    "image_url": "",
+                    "revision_id": "a0aae7cb-d5f8-4cb1-a611-2e6d618cac7d",
+                    "type": "organization",
+                    "id": "6e4c8f0a-824c-42ee-8f43-6f4b7c780134",
+                    "approval_status": "approved"
+                },
+                "name": "b114bc8c-afa3-5bb1-b75e-752238d26b11",
+                "isopen": false,
+                "url": "https://deims.org/node/221",
+                "notes": "The monitoring site was established in 1993 and consists of a monitoring station, where the measuring equipment is located, i.e., Wind Speed Meter (Young) pyranometer (LiCo) hygrometers, etc., permanent plots in the 105-year-old spruce stands where bulk deposition, throughfall and soil solution are collected on the monthly basis. The investigations of health status of trees and floral characteristic have been carried out since 1994. The analyses are carried out in a certified laboratory of the Institute for Ecology of Industrial Areas, Katowice (Certificate No AB 325).",
+                "owner_org": "6e4c8f0a-824c-42ee-8f43-6f4b7c780134",
+                "extras": [
+                    {
+                        "key": "B2FINDVersion",
+                        "value": "2.4.0"
+                    },
+                    {
+                        "key": "Contributor",
+                        "value": "and;deims.org;DEIMS-SDR;Dataset;registry;Site"
+                    },
+                    {
+                        "key": "DiscHierarchy",
+                        "value": "{4.4.7.1,\"Environmental Research\",\"Environmental Monitoring\"}"
+                    },
+                    {
+                        "key": "Discipline",
+                        "value": "Environmental Monitoring"
+                    },
+                    {
+                        "key": "Format",
+                        "value": "Research site"
+                    },
+                    {
+                        "key": "Language",
+                        "value": "English;English"
+                    },
+                    {
+                        "key": "MetaDataAccess",
+                        "value": "https://deims.org/pycsw/catalogue/csw?verb=GetRecord&metadataPrefix=iso19139&identifier=b114bc8c-afa3-5bb1-b75e-752238d26b11"
+                    },
+                    {
+                        "key": "ResourceType",
+                        "value": "dataset"
+                    },
+                    {
+                        "key": "SpatialCoverage",
+                        "value": "(50N,19E)"
+                    },
+                    {
+                        "key": "fulltext",
+                        "value": "ffdea94e-8148-4adf-8f64-c2d2289f242f;English;utf8;dataset;Research site;2018-10-14;http://www.opengis.net/def/crs/EPSG/0/4326;Salmopol;https://deims.org/site/ffdea94e-8148-4adf-8f64-c2d2289f242f;The monitoring site was established in 1993 and consists of a monitoring station, where the measuring equipment is located, i.e., Wind Speed Meter (Young) pyranometer (LiCo) hygrometers, etc., permanent plots in the 105-year-old spruce stands where bulk deposition, throughfall and soil solution are collected on the monthly basis. The investigations of health status of trees and floral characteristic have been carried out since 1994. The analyses are carried out in a certified laboratory of the Institute for Ecology of Industrial Areas, Katowice (Certificate No AB 325).;The original metadata record was created using DEIMS-SDR, the Dynamic Ecological Information Management System - Site and dataset registry;site;emf2iso_pointer_record;ecosystem parameter;diversity index;floristic diversity;ecosystem structure;habitat structure;atmospheric parameter;precipitation intensity;soil parameter;Terrestrial;continuousDataCollection;Environmental monitoring facilities;GEMET - INSPIRE themes, version 1.0;2008-06-01;English;environment;18.966400000000;18.966400000000;49.663000000000;49.663000000000;1993-01-01;https://data.lter-europe.net/geoserver/deims/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=deims:lter_all_formal&CQL_FILTER=uuid='ffdea94e-8148-4adf-8f64-c2d2289f242f'&outputFormat=SHAPE-ZIP;WFS GetFeature request for downloading the data set in SHP format;https://data.lter-europe.net/geoserver/deims/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=deims:lter_all_formal&CQL_FILTER=uuid='ffdea94e-8148-4adf-8f64-c2d2289f242f'&outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2;WFS GetFeature request for downloading the data set in GML 3.2 format;https://data.lter-europe.net/geoserver/deims/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=deims:lter_all_formal&CQL_FILTER=uuid='ffdea94e-8148-4adf-8f64-c2d2289f242f'&outputFormat=application%2Fjson;WFS GetFeature request for downloading the data set in GeoJSON format;https://deims.org/node/221;Poland (LTER-Poland);COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services;2010-12-08;publication;This data set is conformant with the INSPIRE Implementing Rules for the interoperability of spatial data sets and services;false;Dataset has been created by data transformation from the original record collected by the site managers using DEIMS site metadata editing form."
+                    },
+                    {
+                        "key": "oai_identifier",
+                        "value": "b114bc8c-afa3-5bb1-b75e-752238d26b11"
+                    },
+                    {
+                        "key": "oai_set",
+                        "value": "full"
+                    },
+                    {
+                        "key": "spatial",
+                        "value": "{\"type\":\"Polygon\",\"coordinates\":[[[18.966400000000,49.663000000000],[18.966400000000,49.663000000000],[18.966400000000,49.663000000000],[18.966400000000,49.663000000000],[18.966400000000,49.663000000000]]]}"
+                    }
+                ],
+                "title": "Salmopol",
+                "revision_id": "e334eddb-e605-4875-b544-1e9cf66fc619"
+            }
+        ],
+        "search_facets": {}
+    }
+}
