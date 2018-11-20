@@ -69,21 +69,21 @@
             subproperty-name: ''
             url: ''   
     dataStandard:
-        - 
-            namespace: 'b2find'    
-            property-name: 'ResourceType'
-            subproperty-name: ''
-            url: ''
-        - 
-            namespace: 'b2find'    
-            property-name: 'Format'
-            subproperty-name: ''
-            url: ''
          - 
             namespace: 'b2find'    
             property-name: 'Checksum'
             subproperty-name: ''
-            url: ''                    
+            url: ''     
+         - 
+            namespace: 'b2find'    
+            property-name: 'ResourceType'
+            subproperty-name: ''
+            url: '' 
+         - 
+            namespace: 'b2find'    
+            property-name: 'Format'
+            subproperty-name: ''
+            url: ''                
     dateModified:
         - 
             namespace: 'b2find'    
