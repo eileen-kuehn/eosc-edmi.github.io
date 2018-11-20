@@ -1,0 +1,105 @@
+{
+  //Example taken from: https://reactome.org/content/detail/R-HSA-2299677
+  //EDMI: Name
+  "name": "SCARA5:ligand is endocytosed",
+  //EDMI: Description
+  "description": "As inferred from mouse, the SCARA5:ligand complex is endocytosed.",
+  //EDMI: Identifier
+  //Added for the purpose of the example
+  "identifier": "R-HSA-2299677",
+  //EDMI: URL
+  "url": "https://reactome.org/PathwayBrowser/#/R-HSA-2299677",
+  "sameAs": null,
+  "version": "66",
+  "keywords": [
+    "BlackBoxEvent"
+  ],
+  //EDMI: Creator
+  "creator": [
+    {
+      "givenName": "Claudine",
+      "familyName": "Neyen",
+      "affiliation": [
+        {
+          "name": "Global Health Institute, School of Life Sciences, Swiss Federal Institute of Technology",
+          "@type": "Organization"
+        }
+      ],
+      "url": "http://europepmc.org/authors/0000-0002-9870-5548",
+      "@type": "Person"
+    },
+    {
+      "givenName": "Bruce",
+      "familyName": "May",
+      "affiliation": [
+        {
+          "name": "Cold Spring Harbor Laboratory",
+          "@type": "Organization"
+        }
+      ],
+      "url": "http://europepmc.org/authors/0000-0001-5193-0855",
+      "@type": "Person"
+    }
+  ],
+  "includedInDataCatalog": {
+    "url": "https://reactome.org",
+    "name": "Reactome",
+    "@type": "DataCatalog"
+  },
+  "distribution": [
+    {
+	  //EDMI: AccessURL
+      "contentUrl": "https://reactome.org/ContentService/exporter/sbml/2299677.xml",
+	  //EDMI: DataStandard
+      "fileFormat": "SBML",
+      "@type": "DataDownload"
+    },
+    {
+	  //EDMI: AccessURL
+      "contentUrl": "https://reactome.org/ReactomeRESTfulAPI/RESTfulWS/sbgnExporter/2299677",
+	  //EDMI: DataStandard
+      "fileFormat": "SBGN",
+      "@type": "DataDownload"
+    },
+    {
+	  //EDMI: AccessURL
+      "contentUrl": "https://reactome.org/ReactomeRESTfulAPI/RESTfulWS/biopaxExporter/Level2/2299677",
+	  //EDMI: DataStandard
+      "fileFormat": "BIOPAX2",
+      "@type": "DataDownload"
+    },
+    {
+	  //EDMI: AccessURL
+      "contentUrl": "https://reactome.org/ReactomeRESTfulAPI/RESTfulWS/biopaxExporter/Level3/2299677",
+	  //EDMI: DataStandard
+      "fileFormat": "BIOPAX3",
+      "@type": "DataDownload"
+    },
+    {
+	  //EDMI: AccessURL
+      "contentUrl": "https://reactome.org/cgi-bin/pdfexporter?DB=gk_current&ID=2299677",
+	  //EDMI: DataStandard
+      "fileFormat": "PDF",
+      "@type": "DataDownload"
+    },
+    {
+	  //EDMI: AccessURL
+      "contentUrl": "https://reactome.org/cgi-bin/rtfexporter?DB=gk_current&ID=2299677",
+	  //EDMI: DataStandard
+      "fileFormat": "DOCX",
+      "@type": "DataDownload"
+    },
+    {
+	  //EDMI: AccessURL
+      "contentUrl": "https://reactome.org/cgi-bin/protegeexporter?DB=gk_current&ID=2299677",
+	  //EDMI: DataStandard
+      "fileFormat": "OWL",
+      "@type": "DataDownload"
+    }
+  ],
+  "citation": [],
+  //EDMI: License
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "@context": "http://schema.org/",
+  "@type": "DataSet"
+}
