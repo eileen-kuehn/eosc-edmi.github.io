@@ -27,9 +27,9 @@
             subproperty-name: ''
             url: ''
 
-    url:
+    url: # n/a
         - 
-            namespace: 'DATS'    
+            namespace: ''    
             property-name: ''
             subproperty-name: ''
             url: ''    
@@ -55,9 +55,9 @@
             subproperty-name: ''
             url: ''
    
-    dataStandard: 
+    dataStandard: # n/a
         - 
-            namespace: 'DATS'    
+            namespace: ''    
             property-name: ''
             subproperty-name: ''
             url: ''  
@@ -69,9 +69,9 @@
             subproperty-name: ''
             url: ''
         
-    accessUrl: 
+    accessUrl: # n/a
         - 
-            namespace: 'DATS'    
+            namespace: ''    
             property-name: ''
             subproperty-name: ''
             url: ''   
