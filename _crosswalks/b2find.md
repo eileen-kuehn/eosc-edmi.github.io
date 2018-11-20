@@ -1,6 +1,6 @@
 ---
   resource:
-    name: EUDAT B2FIND
+    name: 'EUDAT B2FIND'
     type: 'metadata schema'
     version: '0.1'
     url: 'http://b2find.eudat.eu/guidelines/mapping.html'
