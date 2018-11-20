@@ -1,0 +1,90 @@
+{
+  //Example taken from: https://www.kaggle.com/center-for-policing-equity/data-science-for-good
+  "@context": "http://schema.org/",
+  "@type": "Dataset",
+  //EDMI: Name
+  "name": "Data Science for Good: Center for Policing Equity",
+  //EDMI: Description
+  "description": "# Overview\n\n---\n\nThe Center for Policing Equity (CPE) is research scientists, race and equity experts, data virtuosos, and community trainers working together to build more fair and just systems. Data and science are our tools; law enforcement and communities are our partners. Our aim is to bridge the divide created by communication problems, suffering and generational mistrust, and forge a path towards public safety, community trust, and racial equity.\n\nPolice departments across the United States have joined our National Justice Database, the first and largest collection of standardized police behavioral data. In exchange for unprecedented access to their records (such as use of force incidents, vehicle stops, pedestrian stops, calls for service, and crime data), our scientists use advanced analytics to diagnose disparities in policing, shed light on police behavior, and provide actionable recommendations. Our highly-detailed custom reports help police departments improve public safety, restore trust, and do their work in a way that aligns with their own values.\n\n\n\n# Problem Statement\n\n---\n\nHow do you measure justice? And how do you solve the problem of racism in policing? We look for factors that drive racial disparities in policing by analyzing census and police department deployment data. The ultimate goal is to inform police agencies where they can make improvements by identifying deployment areas where racial disparities exist and are not explainable by crime rates and poverty levels.\n\nOur biggest challenge is automating the combination of police data, census-level data, and other socioeconomic factors. Shapefiles are unusual and messy -- which makes it difficult to, for instance, generate maps of police behavior with precinct boundary layers mixed with census layers. Police incident data are also very difficult to normalize and standardize across departments since there are no federal standards for data collection..\n\nMain Prize Track submissions will be judged based on the following general criteria:\n\n- **Performance** - How well does the solution combine shapefiles and census data? How much manual effort is needed? CPE will not be able to live-test every submission, so a strong entry will be able to automate using shape files with different projections and clearly articulate why it is effective at tackling the problem.\n\n- **Accuracy** - Does the solution provide reliable and accurate analysis? How well does it match census-level demographics to police deployment areas?\n\n- **Approachability** - The best solutions should use best coding practices and have useful comments. Plots and graphs should should be self-explanatory. CPE might use your work to explain to stakeholders where to take action,so the results of your solution should be developed for an audience of law enforcement professionals and public officials.\n\n\n\n# How to Participate \n\n---\n\n\n### Accept the Rules\nTo be considered a participant in the CPE Data Science for Good Event you must register and accept the rules.\n\nAccept the rules by filling out this form: [SIGNUP FORM](https://www.kaggle.com/data-science-for-good-cpe-signup)<br>\n(You need to be logged into your Kaggle account)<br>\n\n### Make Submissions\n\nMain Prize Track:\n\n* Be a registered participant by accepting the rules<br>\n* Make your kernel public<br>\n* Submit your kernel(s) by filling out this form [SUBMISSION FORM](https://www.kaggle.com/data-science-for-good-cpe-submission)<br>\n\nSecondary Prize Track:<br>\n\n* Be a registered participant by accepting the rules<br>\n* Make sure your kernel is public<br>\n* Note: No need to fill out the submission form for this prize track.\n\n\n\n\n# Prizes and Eligibility\n\n---\n\n### Main Prize Track ($15,000 total)\n\nCPE will award $15,000 in total prizes to five winning authors who submit public kernels that effectively tackle the objective. These kernels must be submitted for consideration by the deadline.\n\nPrizes:<br>\n\n- 1st place:  $5,000\n- 2nd place: $4,000\n- 3rd place: $3,000\n- 4th place: $1,500\n- 5th place: $1,500\n\n### Secondary Prize Track (swag)\n\nTo encourage collaboration through sharing of code and use of publicly available data, secondary prize awards will be based on popularity (upvotes). Winners will be the authors of the top five most upvoted kernels. \n\nPrizes are the winner’s choice of:<br>\n\n- Kaggle No Free Hunch T-shirt\n- Kaggle Tier T-shirt\n- Kaggle Coffee Mug\n- Kaggle Water Bottle\n\n\n# Timeline\n\n---\n\n\nAll dates are 11:59PM UTC\n\n- Deadline for secondary prize submissions: **October 30th**\n\n- Deadline for main prize submissions: **December 4th**\n\n- Main prize winners announcement: **December 11th**\n\n\n\n# Rules\n\n---\n\nTo be eligible to win a prize in either of the above prize tracks, you must be:\n\n- a registered account holder at Kaggle.com;\n- the older of 18 years old or the age of majority in your jurisdiction of residence;\n- not a resident of Crimea, Cuba, Iran, Syria, North Korea, or Sudan; and\n- not a person or representative of an entity under U.S. export controls or sanctions.\n\nYour kernels will only be eligible to win if they have been made public on kaggle.com by the above deadline. All prizes are awarded at the discretion of CPE, and CPE reserves the right to cancel or modify prize criteria.\n\nUnfortunately employees, interns, contractors, officers and directors of Kaggle Inc., and their parent companies, are not eligible to win any prizes.\n\n",
+  //EDMI: URL
+  "url": "https://www.kaggle.com/center-for-policing-equity/data-science-for-good",
+  "sameAs": "https://staging.kaggle.com/center-for-policing-equity/data-science-for-good",
+  "version": 18,
+  "keywords": [
+    "society and social sciences &gt; social sciences &gt; demographics",
+    "analysis &gt; geospatial analysis",
+    "general reference &gt; research tools and topics &gt; government agencies",
+    "geography and places &gt; communities",
+    "medium",
+    "featured"
+  ],
+  //EDMI: License
+  "license": {
+    "@type": "CreativeWork",
+    "name": "CC0: Public Domain",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  //EDMI: Identifier
+  "identifier": "45286",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Kaggle",
+    "url": "https://www.kaggle.com"
+  },
+  //EDMI: Creator
+  "creator": {
+    "@type": "Organization",
+    "name": "Center for Policing Equity",
+    "url": "https://www.kaggle.com/center-for-policing-equity",
+    "image": "https://storage.googleapis.com/kaggle-organizations/1964/thumbnail.png?r=654"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "requiresSubscription": true,
+      "encodingFormat": "zip",
+      "fileFormat": "zip",
+	  //EDMI: AccessURL
+      "contentUrl": "https://www.kaggle.com/center-for-policing-equity/data-science-for-good/downloads/data-science-for-good.zip/18",
+      "contentSize": "45177047 bytes"
+    },
+    {
+      "@type": "DataDownload",
+      "requiresSubscription": true,
+      "encodingFormat": "zip",
+      "fileFormat": "zip",
+	  //EDMI: AccessURL
+      "contentUrl": "https://www.kaggle.com/center-for-policing-equity/data-science-for-good/downloads/cpe-data.zip/18",
+      "contentSize": "45177047 bytes"
+    }
+  ],
+  "commentCount": 24,
+  //EDMI: DateModified
+  "dateModified": "2018-10-29T23:55:11.713",
+  "discussionUrl": "https://www.kaggle.com/center-for-policing-equity/data-science-for-good/discussion",
+  "alternateName": "How do you measure justice?",
+  "isAccessibleForFree": true,
+  "thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/45286/83124/60172dd311a9bbb483689fd4e7fc83ae/dataset-card.jpg?t=2018-09-28-19-32-09",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": "http://schema.org/CommentAction",
+      "userInteractionCount": 24
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": "http://schema.org/DownloadAction",
+      "userInteractionCount": 2362
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": "http://schema.org/ViewAction",
+      "userInteractionCount": 47892
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": "http://schema.org/LikeAction",
+      "userInteractionCount": 273
+    }
+  ]
+}
