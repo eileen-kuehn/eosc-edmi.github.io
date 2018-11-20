@@ -68,22 +68,22 @@
             property-name: 'Rights'
             subproperty-name: ''
             url: ''   
-    dataStandard: # N/A
-        - 
-            namespace: 'b2find'    
-            property-name: 'ResourceType'
-            subproperty-name: ''
-            url: ''
-        - 
-            namespace: 'b2find'    
-            property-name: 'Format'
-            subproperty-name: ''
-            url: ''
+    dataStandard:
          - 
             namespace: 'b2find'    
             property-name: 'Checksum'
             subproperty-name: ''
-            url: ''                    
+            url: ''     
+         - 
+            namespace: 'b2find'    
+            property-name: 'ResourceType'
+            subproperty-name: ''
+            url: '' 
+         - 
+            namespace: 'b2find'    
+            property-name: 'Format'
+            subproperty-name: ''
+            url: ''                
     dateModified:
         - 
             namespace: 'b2find'    
@@ -91,11 +91,11 @@
             subproperty-name: ''
             url: ''
         - 
-            namespace: 'datacite'    
+            namespace: 'b2find'    
             property-name: 'dateType'
             subproperty-name: ''
             url: ''  
-    accessUrl: # N/A
+    accessUrl:
         - 
             namespace: 'b2find'    
             property-name: 'Source'
