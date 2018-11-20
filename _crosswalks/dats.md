@@ -27,10 +27,10 @@
             subproperty-name: ''
             url: ''
 
-    url: # n/a
+    url: 
         - 
-            namespace: ''    
-            property-name: ''
+            namespace: 'DATS'    
+            property-name: 'identifier'
             subproperty-name: ''
             url: ''    
             
