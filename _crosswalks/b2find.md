@@ -68,7 +68,7 @@
             property-name: 'Rights'
             subproperty-name: ''
             url: ''   
-    dataStandard: # N/A
+    dataStandard:
         - 
             namespace: 'b2find'    
             property-name: 'ResourceType'
@@ -91,11 +91,11 @@
             subproperty-name: ''
             url: ''
         - 
-            namespace: 'datacite'    
+            namespace: 'b2find'    
             property-name: 'dateType'
             subproperty-name: ''
             url: ''  
-    accessUrl: # N/A
+    accessUrl:
         - 
             namespace: 'b2find'    
             property-name: 'Source'
