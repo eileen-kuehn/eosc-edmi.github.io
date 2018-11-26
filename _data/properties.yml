@@ -1,0 +1,248 @@
+- 
+  name: name
+  description: "A descriptive name for the dataset"
+  marginality: 
+    functional: minimum
+    operational: ""
+  guideline: ""
+  url: ""
+- 
+  name: description
+  description: "A short summary describing a dataset"
+  marginality: 
+    functional: minimum
+    operational: ""
+  guideline: Description
+  url: "https://docs.google.com/document/d/1ZxkUCLubazoEAslso5dR142oZ_ultvcBCZ5Y8b_Yp-I/edit?usp=sharing"
+- 
+  name: identifier
+  description: "The identifier property represents any kind of identifier for any kind of dataset"
+  marginality: 
+    functional: minimum
+    operational: ""
+  guideline: "Unique Identifier"
+  url: "https://docs.google.com/document/d/1KO2HBeQq-BcMgtwKDxFQfRKI1R8V-m4TRkTl_YEW5nw/edit?usp=sharing"
+- 
+  name: url
+  description: "The location of a page describing the dataset"
+  marginality: 
+    functional: minimum
+    operational: recommended
+  guideline: "Location (URL)"
+  url: "https://docs.google.com/document/d/1wcLJ43G0MMvJCOXyrud5ChgsmvHdG4veWJjJZZt3dSk/edit?usp=sharing"
+- 
+  name: creator
+  description: "The creator/author of this dataset"
+  marginality: 
+    functional: minimum
+    operational: recommended
+  guideline: Originator
+  url: "https://docs.google.com/document/d/1vpvYTt4r4ijprvOx67ejpnJgaOuP-xhIkhhnyxS_nCI/edit?usp=sharing"
+- 
+  name: dateCreated
+  description: "The date on which the dataset was created"
+  marginality: 
+    functional: minimum
+    operational: optional
+  guideline: "Temporal coordinates"
+  url: "https://docs.google.com/document/d/1KB-scjM7sik59TEty_NyPjGOtf5gXSecOwXJlijWxF8/edit?usp=sharing"
+- 
+  name: license
+  description: "A license under which the dataset is distributed"
+  marginality: 
+    functional: recommended
+    operational: minimum
+  guideline: Availability
+  url: "https://docs.google.com/document/d/1X40HaojHiF6e928V2nsVDKXcCeNOYIW4Mgvsq_7fD4I/edit?usp=sharing"
+- 
+  name: dataStandard
+  description: "The standard in which the content of the dataset is represented"
+  marginality: 
+    functional: recommended
+    operational: minimum
+  guideline: ""
+  url: ""
+- 
+  name: dateModified
+  description: "The date on which the dataset was most recently modified"
+  marginality: 
+    functional: ""
+    operational: minimum
+  guideline: ""
+  url: ""
+- 
+  name: accessUrl
+  description: "The link to download the dataset"
+  marginality: 
+    functional: ""
+    operational: minimum
+  guideline: ""
+  url: ""
+- 
+  name: accessInterface
+  description: "The type of interface to present the dataset"
+  marginality: 
+    functional: ""
+    operational: minimum
+  guideline: ""
+  url: ""
+- 
+  name: structure
+  description: "The description of the structure of the dataset"
+  marginality: 
+    functional: ""
+    operational: recommended
+  guideline: Schema
+  url: "https://docs.google.com/document/d/1ewcWDIJQTWglXGySv28ORMgqrurdQsD9_pDzn8ec7uc/edit?usp=sharing"
+- 
+  name: includedIn
+  description: "A dataset or data catalog which contains the dataset"
+  marginality: 
+    functional: recommended
+    operational: recommended
+  guideline: ""
+  url: ""
+- 
+  name: measurementTechnique
+  description: "A technique or technology used in a dataset corresponding to the method used for measuring the corresponding variables"
+  marginality: 
+    functional: recommended
+    operational: ""
+  guideline: ""
+  url: ""
+- 
+  name: keywords
+  description: "Keywords or tags used to describe the dataset"
+  marginality: 
+    functional: recommended
+    operational: ""
+  guideline: Keywords
+  url: "https://docs.google.com/document/d/10Yy-FcUHzDma-2-6gM2lE6f1EMgeW2N8iFL8-jFNttg/edit?usp=sharing"
+- 
+  name: variablesMeasured
+  description: "The variables that are measured in the dataset"
+  marginality: 
+    functional: recommended
+    operational: ""
+  guideline: ""
+  url: ""
+- 
+  name: format
+  description: "The format in which the content of the dataset is encoded to present the information, typically a MIME format"
+  marginality: 
+    functional: ""
+    operational: recommended
+  guideline: "Medium / Format"
+  url: "https://docs.google.com/document/d/1cd8cxKKgksdqaftPym24SmwOx7IxQdNebGiHQSCXT0M/edit?usp=sharing"
+- 
+  name: scientificType
+  description: "Scientific domain or type of the information provided in the datataset"
+  marginality: 
+    functional: ""
+    operational: recommended
+  guideline: ""
+  url: ""
+- 
+  name: includes
+  description: "A dataset or data catalog contained in the dataset"
+  marginality: 
+    functional: ""
+    operational: recommended
+  guideline: ""
+  url: ""
+- 
+  name: contentType
+  description: "Type of content provided in the dataset based on its origin and type of processes (raw, processed, summarised)"
+  marginality: 
+    functional: ""
+    operational: recommended
+  guideline: ""
+  url: ""
+- 
+  name: size
+  description: "Size of the dataset using a digital information multiple unit byte siymbol (MB, GB, PT, ...)"
+  marginality: 
+    functional: ""
+    operational: recommended
+  guideline: ""
+  url: ""
+- 
+  name: authentications
+  description: "Type of authentication required to access the dataset"
+  marginality: 
+    functional: ""
+    operational: recommended
+  guideline: ""
+  url: ""
+- 
+  name: version
+  description: "The version of the dataset"
+  marginality: 
+    functional: optional
+    operational: optional
+  guideline: ""
+  url: ""
+- 
+  name: metric
+  description: "Metric to provide some quantitative or qualitative information about the dataset"
+  marginality: 
+    functional: optional
+    operational: optional
+  guideline: ""
+  url: ""
+- 
+  name: sameAs
+  description: "Other URLs that can be used to access the dataset page"
+  marginality: 
+    functional: optional
+    operational: ""
+  guideline: ""
+  url: ""
+- 
+  name: spatialCoverage
+  description: "The location depicted or described in the content"
+  marginality: 
+    functional: optional
+    operational: ""
+  guideline: "Spatial coordinates"
+  url: "https://docs.google.com/document/d/124gKNFNvli_iv0UxJ-J8nasMXbwRgTTNoY5afpNXvBM/edit?usp=sharing"
+- 
+  name: temporalCoverage
+  description: "The property indicates the period that the content applies to"
+  marginality: 
+    functional: optional
+    operational: ""
+  guideline: ""
+  url: ""
+- 
+  name: citation
+  description: "A citation or reference to another work that describes the dataset"
+  marginality: 
+    functional: optional
+    operational: ""
+  guideline: Citations
+  url: "https://docs.google.com/document/d/1P6g-8f8DMmPsm4jCXag9Sa-Utydg8hln6dWUvgCLHGs/edit?usp=sharing"
+- 
+  name: referenceCitation
+  description: "A citation or reference to that describes the dataset"
+  marginality: 
+    functional: ""
+    operational: optional
+  guideline: "Related publications"
+  url: "https://docs.google.com/document/d/1r8VMdMY8cHsBdjTHVAz7kK87IFh6auEF-UL6JMHFlEA/edit?usp=sharing"
+- 
+  name: compression
+  description: "Type of compression used in the dadataset"
+  marginality: 
+    functional: ""
+    operational: optional
+  guideline: ""
+  url: ""
+- 
+  name: authorisation
+  description: "Type of authorisation required to access the dataset"
+  marginality: 
+    functional: ""
+    operational: optional
+  guideline: ""
+  url: ""
