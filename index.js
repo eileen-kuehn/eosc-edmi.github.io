@@ -32,14 +32,15 @@ $(function () {
 
 function propertiesPageFiltering() {
     let options = {
-        valueNames: ['name', 'functional', 'operational', 'marginality']
+        valueNames: ['name', 'functional_minimum', 'functional_recommended', 'functional_optional', 'operational_minimum', 'operational_recommended', 'operational_optional']
     };
 
     var propertyList = new listjs('properties-table', options);
 
     $('#filter-minimum').click(function () {
         propertyList.filter(function (item) {
-            if (item.values().marginality == "minimum") {
+            if (item.values().functional_minimum.includes("marked") ||
+				item.values().operational_minimum.includes("marked")) {
                 return true;
             } else {
                 return false;
@@ -50,7 +51,8 @@ function propertiesPageFiltering() {
 
     $('#filter-recommended').click(function () {
         propertyList.filter(function (item) {
-            if (item.values().marginality == "recommended") {
+            if (item.values().functional_recommended.includes("marked") ||
+				item.values().operational_recommended.includes("marked")) {
                 return true;
             } else {
                 return false;
@@ -61,7 +63,8 @@ function propertiesPageFiltering() {
 
     $('#filter-optional').click(function () {
         propertyList.filter(function (item) {
-            if (item.values().marginality == "optional") {
+            if (item.values().functional_optional.includes("marked") ||
+				item.values().operational_optional.includes("marked")) {
                 return true;
             } else {
                 return false;

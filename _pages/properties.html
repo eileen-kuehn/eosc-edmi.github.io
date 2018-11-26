@@ -38,14 +38,14 @@ layout: mapping
                     <td class="name"><strong>{{property.name}}</strong></td>
                     <td>{{property.description}}</td>
 					{% for marginality in marginalities %}
-					<td>
+					<td class="functional_{{marginality}}">
 						{% if property.marginality.functional == marginality %}
                         <i class="mdi mdi-checkbox-marked-outline mdi-24px blue-check-box"></i>
                         {% else %}
                         <i class="mdi mdi-checkbox-blank-outline mdi-24px"></i>
 						{% endif %}
 					</td>
-					<td>
+					<td class="operational_{{marginality}}">
 						{% if property.marginality.operational == marginality %}
                         <i class="mdi mdi-checkbox-marked-outline mdi-24px blue-check-box"></i>
                         {% else %}
