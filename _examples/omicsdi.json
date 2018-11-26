@@ -1,0 +1,147 @@
+#omicsid data format
+{
+  #EDMI: identifier
+  "accession": "E-MTAB-723",
+  "database": "ArrayExpress",
+  #EDMI: name
+  "name": "Transcription profiling by array of human SHSY5Y cells transfected with miR96 and treated with methamphetamine",
+  #EDMI: description
+  "description": "SHSY5Y cells trasnfected ±miR96 ± METH",
+  "scores": {
+    "citationCount": 0,
+    "reanalysisCount": 0,
+    "viewCount": 96,
+    "searchCount": 6
+  },
+  "dates": [
+    {
+      #EDMI: dateCreated
+      "type": "publication",
+      "value": "2014-06-03"
+    },
+    {
+      #EDMI: dateModified
+      "type": "updated",
+      "value": "2014-06-03"
+    }
+  ],
+  "additionals": [
+    {
+      "name": "omics_type",
+      "value": "Transcriptomics"
+    },
+    {
+      #EDMI: creator
+      "name": "submitter",
+      "value": "Sarah Jugurnauth"
+    },
+    {
+      "name": "instrument_platform",
+      "value": "418 [Affymetrix]"
+    },
+    {
+      "name": "software",
+      "value": "MicroArraySuite 5.0"
+    },
+    {
+      "name": "species",
+      "value": "Homo Sapiens"
+    },
+    {
+      "name": "submitter_keywords",
+      "value": "transcription profiling by array"
+    },
+    {
+      #EDMI: accessURL
+      "name": "full_dataset_link",
+      "value": "https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-723"
+    },
+    {
+      "name": "submitter_email",
+      "value": "sarah.jugurnauth@kcl.ac.uk"
+    },
+    {
+      "name": "repository",
+      "value": "ArrayExpress"
+    },
+    {
+      "name": "sample_protocol",
+      "value": "Growth Protocol - Cells @ P22. 2xT75 @70% confluence plated into 5x 6 well plates (only using 5 of the wells) 2mls of trypsin for 4 mins. 10mls rinsing media. Resupended into 25mls SHSY5Y complete media. 1ml dispensed per well (into 2mls media) using repeat pipette. \n Sample Processing - CMAP miRNA transfection. 1nM concentration of miRNA per cell (6.2uls of 500nM/ul) transfected with 2.4uls.well turbofect. Cells with methamphetamine: 10nM methamphetamine\n Hybridization - Affymetrix Generic Hybridization\n Labeling - Labeling of samples was carried out according to the manufacturer’s standard protocol\n Nucleic Acid Extraction - RNAprotect 1ml added. Cells frozen at -80C. EXtraction using RNeasy Plus Kit."
+    },
+    {
+      "name": "data_protocol",
+      "value": "Feature Extraction - Affymetrix CEL analysis."
+    },
+    {
+      "name": "citation_count",
+      "value": "0"
+    },
+    {
+      "name": "view_count",
+      "value": "96"
+    },
+    {
+      "name": "isClaimable",
+      "value": "true"
+    },
+    {
+      "name": "name_synonyms",
+      "value": "(S)-N, human being, Metamfetamine, N Methylamphetamine, N, Methylamphetamine, alpha-dimethylbenzeneethanamine, alpha-dimethyl-, (+)-(S)-N-alpha-dimethylphenethylamine, d-1-phenyl-2-methylaminopropane, man, (S)-, human, Cell, Desoxyephedrine, C10H15N, N-Methylamphetamine, Madrine, d-desoxyephedrine., (2S)-N-methyl-1-phenylpropan-2-amine, Methamphetamine Hydrochloride, \"human\" EXACT genbank_common_name [], Methamphetamine, d-phenylisopropylmethylamine, d-deoxyephedrine, d-N-methylamphetamine, methyl-beta-phenylisopropylamine, Hydrochloride, (alphaS)-N, Desoxyn, Deoxyephedrine, Benzeneethanamine"
+    },
+    {
+      "name": "description_synonyms",
+      "value": "B12 N(5)-methyltetrahydrofolate homocysteine methyltransferase activity, N(5)-methyltetrahydrofolate--homocysteine cobalamin methyltransferase activity, tetrahydrofolate methyltransferase activity, tetrahydropteroylglutamic methyltransferase activity, B12 N5-methyltetrahydrofolate homocysteine methyltransferase activity, N5-methyltetrahydrofolic-homocysteine vitamin B12 transmethylase activity, 5-methyltetrahydrofolate:L-homocysteine S-methyltransferase activity, MetH, N5-methyltetrahydrofolate-homocysteine cobalamin methyltransferase activity, vitamin B12 methyltransferase activity, 5-methyltetrahydrofolate--homocysteine S-methyltransferase activity., 5-methyltetrahydrofolate-homocysteine S-methyltransferase activity, methyltetrahydrofolate--homocysteine vitamin B12 methyltransferase activity, N5-methyltetrahydrofolate methyltransferase activity, tetrahydropteroylglutamate methyltransferase activity, 5-methyltetrahydrofolate--homocysteine transmethylase activity, N-methyltetrahydrofolate:L-homocysteine methyltransferase activity, N(5)-methyltetrahydrofolic--homocysteine vitamin B12 transmethylase activity, methionine synthase (cobalamin-dependent) activity, N(5)-methyltetrahydrofolate methyltransferase activity, Cell, cobalamin-dependent methionine synthase activity"
+    },
+    {
+      "name": "data_synonyms",
+      "value": "chemical analysis., Bssl, assay, determination, feature_extraction, Bal, 1810036E18Rik, BAL"
+    },
+    {
+      "name": "search_count",
+      "value": "6"
+    },
+    {
+      "name": "search_domains",
+      "value": "sra~6"
+    },
+    {
+      "name": "search_domains",
+      "value": "biosamples-groups~11"
+    },
+    {
+      "name": "search_domains",
+      "value": "ebiweb_corporate~2"
+    },
+    {
+      "name": "search_domains",
+      "value": "taxonomy~1"
+    },
+    {
+      "name": "citation_count_scaled",
+      "value": "0.0"
+    },
+    {
+      "name": "reanalysis_count_scaled",
+      "value": "0.0"
+    },
+    {
+      "name": "view_count_scaled",
+      "value": "0.03498542274052478"
+    },
+    {
+      "name": "normalized_connections",
+      "value": "0.0470588235294118"
+    },
+    {
+      "name": "download_count_scaled",
+      "value": "0.0"
+    }
+  ],
+  "crossReferences": [
+    {
+      "dbName": "TAXONOMY",
+      "dbKey": "9606"
+    }
+  ],
+  "claimable": true
+}
