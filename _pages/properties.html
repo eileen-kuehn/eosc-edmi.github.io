@@ -6,7 +6,7 @@ layout: mapping
     <h1 itemprop="name headline">EDMI metadata properties</h1>
     
     {% assign properties = site.data.properties %}
-	{% assign marginalities = "minimum, recommended, optional" | split: ", " %}
+    {% assign marginalities = "minimum, recommended, optional" | split: ", " %}
 
     <div id="properties-table">
         <div class="controls">
@@ -25,10 +25,10 @@ layout: mapping
                     <th>Description</th>
                     <th>Minimum Functional</th>
                     <th>Minimum Operational</th>
-					<th>Recommended Functional</th>
-					<th>Recommended Operational</th>
-					<th>Optional Functional</th>
-					<th>Optional Operational</th>
+                    <th>Recommended Functional</th>
+                    <th>Recommended Operational</th>
+                    <th>Optional Functional</th>
+                    <th>Optional Operational</th>
                     <th>RDA Metadata guideline</th>
                 </tr>
             </thead>
@@ -37,22 +37,22 @@ layout: mapping
                 <tr>
                     <td class="name"><strong>{{property.name}}</strong></td>
                     <td>{{property.description}}</td>
-					{% for marginality in marginalities %}
-					<td class="functional_{{marginality}}">
-						{% if property.marginality.functional == marginality %}
+                    {% for marginality in marginalities %}
+                    <td class="functional_{{marginality}}">
+                        {% if property.marginality.functional == marginality %}
                         <i class="mdi mdi-checkbox-marked-outline mdi-24px blue-check-box"></i>
                         {% else %}
                         <i class="mdi mdi-checkbox-blank-outline mdi-24px"></i>
-						{% endif %}
-					</td>
-					<td class="operational_{{marginality}}">
-						{% if property.marginality.operational == marginality %}
+                        {% endif %}
+                    </td>
+                    <td class="operational_{{marginality}}">
+                        {% if property.marginality.operational == marginality %}
                         <i class="mdi mdi-checkbox-marked-outline mdi-24px blue-check-box"></i>
                         {% else %}
                         <i class="mdi mdi-checkbox-blank-outline mdi-24px"></i>
-						{% endif %}
-					</td>
-					{% endfor %}
+                        {% endif %}
+                    </td>
+                    {% endfor %}
                     <td class="guideline">
                         {% if property.guideline != "" %}
                         <a href="{{property.url}}">{{property.guideline}}</a>
