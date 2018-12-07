@@ -5,7 +5,13 @@ layout: mapping
 <div id="crosswalk-page">
     <h1>Dataset metadata properties mapping</h1>    
 
-    {% assign properties-page = site.pages | where: 'title', 'Properties' | first %}
+    {% assign properties = site.data.properties %}
+    {% assign minimum_properties = "" | split: "" %}
+    {% for property in properties %}
+    {% if property.marginality.functional == "minimum" or property.marginality.operational == "minimum" %}
+    {% assign minimum_properties = minimum_properties | push:property %}
+    {% endif %}
+    {% endfor %}
     <div id="resources-search">
         {% for crosswalk in site.crosswalks %}
         <div class="search-checkbox">
@@ -19,8 +25,7 @@ layout: mapping
         <div class="edmi-properties">
             <div class="column-title"><h4>EDMI</h4></div>
             <div class="properties">
-                {% assign properties = properties-page.properties | where: 'marginality', 'minimum' %}
-                {% for property in properties %}
+                {% for property in minimum_properties %}
                 <div class="property-card property-name">
                     {{property.name}}
                 </div>
@@ -40,7 +45,7 @@ layout: mapping
                     </div>                    
                 </div>
                 <div class="properties">
-                    {% for property in properties %}                        
+                    {% for property in minimum_properties %}
                     {% assign standard-property-set = crosswalk.properties[property.name] %}
                     <div class="property-card">
                         <div class="property-detail">
